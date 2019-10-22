@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import WebViewExample from './modal_example.js'
+import React from 'react'
+import AsyncStorageExample from './async_storage_example.js'
 
-const Home = () => {
+const App = () => {
     return (
-        <WebViewExample/>
+        <AsyncStorageExample />
     )
 }
-export default Home;
+export default App
